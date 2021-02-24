@@ -2,7 +2,7 @@ services:
 - type: cron
   name: date
   env: python
-  schedule: "0 * * * *"
+  schedule: "* */2 * *"
   buildCommand: "true"        # ensure it's a string
   startCommand: date
-  repo: https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh 
+  repo: https://github.com/ninamarakotik/one.git 
