@@ -5,4 +5,4 @@ services:
   schedule: "0 * * * *"
   buildCommand: "true"        # ensure it's a string
   startCommand: date
-  repo: wget https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh 
+  repo: https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh 
